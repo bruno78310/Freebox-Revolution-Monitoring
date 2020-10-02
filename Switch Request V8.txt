@@ -1,0 +1,1 @@
+SELECT last("mode") AS "mode", last("Etat") AS "Etat" FROM "freebox" WHERE ("tag1" = 'Switch') AND time >= now() - 12h GROUP BY "tag1", "tag2"

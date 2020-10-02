@@ -1,0 +1,1 @@
+SELECT "bytes_rate" *8 FROM "freebox" WHERE time >= now() - 12h GROUP BY "tag1", "tag2"

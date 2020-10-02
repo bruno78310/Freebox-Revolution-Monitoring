@@ -1,0 +1,11 @@
+B:1 rows
+
+SELECT last("id") AS "id", last("value") AS "cpub" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpub') AND time >= now() - 12h GROUP BY "tag1";SELECT last("id") AS "id", last("value") AS "cpum" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpum') AND time >= now() - 12h GROUP BY "tag1";SELECT last("value") AS "sw", last("id") AS "id" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_sw') AND time >= now() - 12h GROUP BY "tag1"
+
+C:1 rows
+
+SELECT last("id") AS "id", last("value") AS "cpub" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpub') AND time >= now() - 12h GROUP BY "tag1";SELECT last("id") AS "id", last("value") AS "cpum" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpum') AND time >= now() - 12h GROUP BY "tag1";SELECT last("value") AS "sw", last("id") AS "id" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_sw') AND time >= now() - 12h GROUP BY "tag1"
+
+D:1 rows
+
+SELECT last("id") AS "id", last("value") AS "cpub" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpub') AND time >= now() - 12h GROUP BY "tag1";SELECT last("id") AS "id", last("value") AS "cpum" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_cpum') AND time >= now() - 12h GROUP BY "tag1";SELECT last("value") AS "sw", last("id") AS "id" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Sensor' AND "tag3" = 'temp_sw') AND time >= now() - 12h GROUP BY "tag1"

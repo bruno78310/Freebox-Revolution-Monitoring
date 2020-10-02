@@ -1,0 +1,1 @@
+SELECT last("id"), last("value") AS "Fan" FROM "freebox" WHERE ("tag1" = 'System' AND "tag2" = 'Fan' AND "tag3" = 'NULL') AND time >= now() - 12h GROUP BY "tag2"
